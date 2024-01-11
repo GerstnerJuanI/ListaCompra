@@ -1,0 +1,28 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.producto{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 90%;
+    min-width: 100px;
+    max-width: 300px;
+}
+.producto h3{
+    text-align: center;
+}
+.producto div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.producto button{
+    float: right;
+}
